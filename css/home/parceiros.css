@@ -33,6 +33,9 @@
   .parceiros{
     padding-bottom: 60px;
   }
+  .parceiros li{
+    padding: 20px;
+  }
   .parceiros h2{
     margin-bottom: 20px;
   }
@@ -41,5 +44,8 @@
   }
   .parceiros li:nth-child(odd){
     border-left: none;
+  }
+  .parceiros li:nth-child(n + 3){
+    border-top: 2px solid var(--cor-2);;
   }
 }
